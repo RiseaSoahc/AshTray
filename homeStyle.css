@@ -1,0 +1,97 @@
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-bar {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button-img {
+    max-width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* Product Block Styles */
+.product-block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.product-block {
+    flex-basis: calc(100% - 20px); /* One product per row with some spacing */
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 15px; /* Reduced padding */
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image {
+    max-width: 120px; /* Smaller image size */
+    height: auto;
+    margin-right: 15px; /* Reduced margin */
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    width: 30px; /* Smaller button size */
+    height: 30px; /* Smaller button size */
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Smaller line height */
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+.single-image-container img {
+    max-width: 100%; 
+    height: auto;
+}
